@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jeu du Pendu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title" id="title">Jeu du Pendu</h1>
+
+        <!-- <div id="modal" class="modal hidden">
+            <div id="result-display"></div>
+            <div id="message-display"></div>
+            <button id="restart-btn">Rejouer2</button>
+        </div> -->
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+                <div id="result-display" class="modal-header"></div>
+                <div id="message-display" class="modal-body"></div>
+                <button id="restart-btn" class="modal-button">Rejouer</button>
+            </div>
+        </div>
+
+
+        <!-- <div id="result-display" class="hidden"></div>
+        <div id="message-display" class="hidden"></div>
+        <button id="restart-btn" class="hidden">Rejouer</button> -->
+
+        <div id="word-display" class="word-display"></div>
+        <div id="guesses" class="guesses"></div>
+        <div class="input-container">
+            <input type="text" id="letter-input" class="letter-input" placeholder="Proposez une lettre">
+            <button id="submit-btn" class="submit-btn">Proposer</button>
+        </div>
+        <div id="hangman-display" class="hangman-display"></div>
+
+        <div class="language-container">
+            <button id="fr-btn" class="language-btn">&#x1F1EB;&#x1F1F7;</button>
+            <button id="en-btn" class="language-btn">&#x1F1EC;&#x1F1E7;</button>
+        </div>
+
+    </div>
+
+
+    <script type="module" src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "diacritic": "^0.0.2",
+    "vite": "^4.3.9"
+  }
+}
