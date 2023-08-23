@@ -80,7 +80,7 @@ Celui-ci est modulable et se présente de la façon suivante :
 export default WORDS;
 ```
 
-- J'ai également ajouter la possibilité de choisir la langue du jeu directement depuis la page de jeu.  
+- J'ai également ajouté la possibilité de choisir la langue du jeu directement depuis la page de jeu.  
 
 - Une fois la partie terminée, le joueur peut choisir de rejouer ou de quitter le jeu.  
 
